@@ -1,0 +1,125 @@
+/* vite/src/components/Driver.css */
+
+h2 {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 35%;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button {
+    background-color:#064db9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .search-bar button:hover {
+    background-color: #040973;
+  }
+  
+  .driver-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .driver-details h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-section {
+    display: flex;
+    width: 48%;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .form-section label {
+    background-color: #0397ed;
+    padding: 10px;
+    width: 150px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    margin-left: 30px;
+    box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    margin-left: 10px; /* Space between label and input */
+  }
+  
+  input[type="text"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  button {
+    background-color: #035ced;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #035ced;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  table td {
+    background-color: #fff;
+  }
+  

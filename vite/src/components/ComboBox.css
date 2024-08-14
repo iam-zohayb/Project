@@ -1,0 +1,13 @@
+.field{
+    padding: 5px;
+
+    width: 200px;
+    max-width: 200px;
+    margin-right: 1%;
+    text-align: center;
+    color: rgb(18, 9, 9);
+    border-radius: 4px;
+    overflow: hidden;
+
+}
+  

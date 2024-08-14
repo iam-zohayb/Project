@@ -1,0 +1,181 @@
+/* Form.css */
+
+.Form {
+  font-family: sans-serif;
+  text-align: center;
+/* Right-to-left direction for Arabic text */
+
+}
+
+form {
+margin-left: 5%;
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+  width: 90%;
+  
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  
+}
+
+.form-section {
+  display: flex;
+  align-items: center;
+padding-right: 60px;
+}
+
+.label-colored {
+  background-color: #0397ed;
+  padding: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 150px;
+  text-align: right;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  margin-left: 0px;
+  
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="time"] {
+  width: 200px;
+  padding: 10px;
+ 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+.h{
+  font-size: 25px;
+  margin-right: 80px;
+}
+h2 {
+  color: #333;
+  margin-bottom: 50px;
+  margin-top: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  font-size: 2em; /* Adjust the size as needed */
+}
+
+
+.passenger-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passenger-section {
+
+ margin-top: 2%;
+  margin-bottom: 15px;
+}
+
+.passenger-section .label-colored {
+
+  width: 150px;
+
+}
+
+.passenger-section input {
+  width: 170px;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #035ced;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-container button:hover {
+  background-color: #0247b3;
+}
+/* Style for the select container */
+.select-container {
+  display: flex;
+
+  flex-direction: column;
+  margin-bottom: 20px; /* Adjust spacing as needed */
+}
+
+/* Style for the select element */
+select {
+  width: 100%; /* Full width to fit the container */
+  padding: 100px; /* Space inside the dropdown */
+  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc; /* Border color and width */
+  background-color: #fff; /* Background color */
+  font-size: 16px; /* Font size */
+  font-family: Arial, sans-serif; /* Font family */
+  color: #333; /* Text color */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Style for the select element on focus */
+select:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Style for option elements */
+option {
+    padding: 40px;
+  padding: 10px; /* Space inside options */
+  font-size: 16px; /* Font size for options */
+}
+
+/* Optional: Style for select element container to align items */
+.select-container label {
+  padding: 40px;
+  margin-bottom: 5px; /* Space between label and select */
+  font-weight: bold; /* Bold font for label */
+  color: #333; /* Label color */
+}
+
+.form-table {
+  width: 80%;
+  border-collapse: collapse;
+margin-left: 10%;
+}
+
+.form-table td {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+.form-table td:first-child,
+.form-table td:nth-child(3) {
+  font-weight: bold;
+background-color: #e3e3e3;
+text-align: left;
+}
+
+.form-table td:nth-child(2),
+.form-table td:nth-child(4) {
+  text-align: left;
+  padding-left: 2%;
+}
